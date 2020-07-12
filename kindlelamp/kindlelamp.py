@@ -1,5 +1,5 @@
-from candle.kindle import Kindle
-from candle.kindle_collection import KindleCollection
+from kindlelamp.kindle import Kindle
+from kindlelamp.kindle_collection import KindleCollection
 from lxml.etree import parse
 import os
 

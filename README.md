@@ -1,6 +1,6 @@
-# candle
+# kindlelamp
 
-## candleについて
+## kindlelampについて
 
 Kindleの蔵書一覧を扱うライブラリです。  
 Macのローカル端末が持つ `~/Library/Application Support/Kindle/Cache/KindleSyncMetadataCache.xml` を取得する、シンプルな機能です。
