@@ -17,6 +17,40 @@
             "textbook_type": null,
             "title": "プログラムはなぜ動くのか 第2版　　知っておきたいプログラムの基礎知識",
             "title_pronunciation": "プログラムハナゼウゴクノカダイニハン　シッテオキタイプログラムのキソチシキ"
+        },
+        "B00VX5XIJQ": {
+            "authors": [
+                {
+                    "author": "井上 信幸",
+                    "pronunciation": "イノウエ ノブユキ"
+                }
+            ],
+            "cde_contenttype": "EBOK",
+            "content_type": "application/x-mobipocket-ebook",
+            "publication_date": "2015-04-09T12:17:10+0000",
+            "publishers": [],
+            "purchase_date": "2016-04-13T08:08:00+0000",
+            "textbook_type": null,
+            "title": "実践Javaプログラム: 火事場のJavaプログラム",
+            "title_pronunciation": "ジッセンジャバプログラム: カジバノジャバプログラム"
+        },
+        "B01N25AUPI": {
+            "authors": [
+                {
+                    "author": "笠倉出版社",
+                    "pronunciation": "カサクラシュッパンシャ"
+                }
+            ],
+            "cde_contenttype": "EBOK",
+            "content_type": "application/x-mobipocket-ebook",
+            "publication_date": "2017-01-24T00:00:00+0000",
+            "publishers": [
+                "笠倉出版社（インプレス）"
+            ],
+            "purchase_date": "2018-01-01T04:22:40+0000",
+            "textbook_type": null,
+            "title": "30日間片づけプログラム",
+            "title_pronunciation": "サンジュウニチカンカタヅケプログラム"
         }
     }
 }
