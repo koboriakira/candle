@@ -1,5 +1,5 @@
 from typing import Dict, Union
-from datetime import date, datetime
+from datetime import date
 
 
 class Kindle():
@@ -15,7 +15,7 @@ class Kindle():
         self.cde_contenttype: str = res['cde_contenttype']
         self.content_type: str = res['content_type']
 
-    def get_purchase_date(self) -> date:
+    def get_purchase_date(self) -> Union[date, None]:
         try:
             return date.fromisoformat(str(self.purchase_date[0:10]))
         except Exception as e:

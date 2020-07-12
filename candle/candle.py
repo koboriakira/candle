@@ -1,7 +1,6 @@
 from candle.kindle import Kindle
 from candle.kindle_collection import KindleCollection
 from lxml.etree import parse
-import json
 import os
 
 

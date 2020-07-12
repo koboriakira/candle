@@ -1,7 +1,6 @@
 from typing import List, Dict, Union
 from candle.kindle import Kindle
 from datetime import date
-import sys
 
 
 class KindleCollection():
