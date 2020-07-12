@@ -1,0 +1,22 @@
+{
+    "books": {
+        "B00HRN7VK0": {
+            "authors": [
+                {
+                    "author": "矢沢 久雄",
+                    "pronunciation": "ヤザワ ヒサオ"
+                }
+            ],
+            "cde_contenttype": "EBOK",
+            "content_type": "application/x-mobipocket-ebook",
+            "publication_date": "2007-04-09T00:00:00+0000",
+            "publishers": [
+                "日経BP"
+            ],
+            "purchase_date": "2020-01-03T15:15:02+0000",
+            "textbook_type": null,
+            "title": "プログラムはなぜ動くのか 第2版　　知っておきたいプログラムの基礎知識",
+            "title_pronunciation": "プログラムハナゼウゴクノカダイニハン　シッテオキタイプログラムのキソチシキ"
+        }
+    }
+}
