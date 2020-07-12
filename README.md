@@ -7,20 +7,29 @@ Macのローカル端末が持つ `~/Library/Application Support/Kindle/Cache/Ki
 
 ## つかってみる
 
+ライブラリをインストールします。
+
 ```
-from candle import candle
+pip install kindlelamp
+```
+
+下のようなソースで実行可能です。
+
+```
+from kindlelamp import kindlelamp
 import json
 
-# candle.read()でファイルを読み込みます
-kindle_collction = candle.read()
+# kindlelamp.read()でファイルを読み込みます
+kindle_collction = kindlelamp.read()
 
 # タイトル一覧だけ欲しい場合は、次のようにして取得可能です
-print(kindle_collction.titles())
+titles = kindle_collction.titles()
+print(titles)
 
 # json形式で出力することも可能です
 # jsonのサンプルは、sample.jsonを確認してください
 with open('sample.json', "w") as f:
-    json.dump(result, f, default=lambda o: o.__dict__, ensure_ascii=False,
+    json.dump(kindle_collction, f, default=lambda o: o.__dict__, ensure_ascii=False,
               indent=4, sort_keys=True, separators=(',', ': '))
 ```
 
@@ -31,7 +40,7 @@ with open('sample.json', "w") as f:
 次のようにファイルパスを指定可能です。
 
 ```
-kindle_collction = candle.read(filepath='***')
+kindle_collction = kindlelamp.read(filepath='***')
 ```
 
 ### 検索したい
@@ -42,14 +51,14 @@ kindle_collction = candle.read(filepath='***')
 
 ```
 # purchase_sinceが開始日付、untilが終了日付。ともに指定された日付を含みます。
-kindle_collction = candle.read().search(purchase_since='2020-01-01', purchase_until='2020-01-31')
+kindle_collction = kindlelamp.read().search(purchase_since='2020-01-01', purchase_until='2020-01-31')
 ```
 
 #### タイトルで検索する
 
 ```
 # titleでタイトルを部分一致で検索します
-kindle_collction = candle.read().search(title='鬼滅')
+kindle_collction = kindlelamp.read().search(title='鬼滅')
 ```
 
 ## できないこと
